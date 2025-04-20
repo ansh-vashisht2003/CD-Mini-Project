@@ -1,0 +1,8 @@
+Grammar Rules Used:
+1. S, int -> main
+2. main, int -> int main
+3. statements, begin -> statement statements
+4. statement, while -> while_loop
+5. statement, int -> declaration
+6. declaration, int -> int IDENTIFIER ASSIGNMENT NUMBER
+7. while_loop, while -> while PARENTHESIS expression PARENTHESIS begin statements end

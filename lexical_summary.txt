@@ -1,0 +1,8 @@
+Summary of Lexical Analysis:
+------------------------------------------------------------
+Numbers                1            0
+Symbols                7            , ( ; )
+Keywords               8            end main while int begin
+Operators              2            =
+Identifiers            7            expr rem re n
+Relational Operators   1            +

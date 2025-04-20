@@ -1,0 +1,32 @@
+S
+    ├── TYPE (Terminal)
+    ├── MAIN (Terminal)
+    └── CODE
+    └──     ├── DECLARE
+    └──     ├──     ├── TYPE (Terminal)
+    └──     ├──     └── ID_LIST
+    └──     ├──     └──     ├── ID (Terminal)
+    └──     ├──     └──     ├── CM (Terminal)
+    └──     ├──     └──     ├── ID (Terminal)
+    └──     ├──     └──     ├── ASSIGNMENT
+    └──     ├──     └──     ├──     ├── EQ (Terminal)
+    └──     ├──     └──     ├──     └── NUM (Terminal)
+    └──     ├──     └──     ├── CM (Terminal)
+    └──     ├──     └──     └── ID (Terminal)
+    └──     └── STATEMENTS
+    └──     └──     └── WHILE_STMT
+    └──     └──     └──     ├── WHILE (Terminal)
+    └──     └──     └──     ├── EXPR
+    └──     └──     └──     ├──     ├── ID (Terminal)
+    └──     └──     └──     ├──     └── ID (Terminal)
+    └──     └──     └──     └── STATEMENTS
+    └──     └──     └──     └──     └── ASSIGN_STMT
+    └──     └──     └──     └──     └──     ├── ID (Terminal)
+    └──     └──     └──     └──     └──     ├── EQ (Terminal)
+    └──     └──     └──     └──     └──     └── EXPR
+    └──     └──     └──     └──     └──     └──     ├── ID (Terminal)
+    └──     └──     └──     └──     └──     └──     ├── ID (Terminal)
+    └──     └──     └──     └──     └──     └──     ├── RELOP (Terminal)
+    └──     └──     └──     └──     └──     └──     └── EXPR
+    └──     └──     └──     └──     └──     └──     └──     ├── ID (Terminal)
+    └──     └──     └──     └──     └──     └──     └──     └── ID (Terminal)
